@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+
+.chatForm {
+  width: 550px;
+  height: 410px;
+  background-color: rgba(151, 130, 196, 1);
+  box-shadow: 0 0 20px 20px rgba(221, 221, 221, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.chatHeader {
+  display: flex;
+  margin: 10px;
+  width: 400px;
+  height: 30px;
+}
+
+.message {
+  width: 300px;
+  height: 30px;
+  border-color: transparent;
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.buttons {
+  display: flex;
+  height: 30px;
+}
+
+.sendButton,
+.locationButton {
+  margin: 0px 10px;
+  padding: 0px 10px;
+  height: 36px;
+  width: 100px;
+  background-color: rgba(219, 213, 230, 1);
+  ;
+  border-radius: 4px;
+  border: none;
+  font-family: sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: rgba(24, 1, 71, 1);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.locationButton {
+  margin-left: 0px;
+}
+
+.sendButton:hover,
+.locationButton:hover {
+  transform: scale(1.05);
+}
+
+.chatMain {
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  height: 320px;
+  width: 510px;
+  border-width: 3px;
+  border-color: #CCCC00;
+  border-radius: 4px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
